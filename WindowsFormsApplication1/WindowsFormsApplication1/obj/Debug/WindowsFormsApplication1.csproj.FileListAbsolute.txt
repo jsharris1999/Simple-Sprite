@@ -8,3 +8,12 @@ C:\Users\Jared\Desktop\2016-2017 School Work\Game Programming\assignment02\Windo
 C:\Users\Jared\Desktop\2016-2017 School Work\Game Programming\assignment02\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
 C:\Users\Jared\Desktop\2016-2017 School Work\Game Programming\assignment02\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 C:\Users\Jared\Desktop\2016-2017 School Work\Game Programming\assignment02\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Jared\Desktop\2016-2017 School Work\Game Programming\assignment03\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Jared\Desktop\2016-2017 School Work\Game Programming\assignment03\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Jared\Desktop\2016-2017 School Work\Game Programming\assignment03\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Jared\Desktop\2016-2017 School Work\Game Programming\assignment03\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Jared\Desktop\2016-2017 School Work\Game Programming\assignment03\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Jared\Desktop\2016-2017 School Work\Game Programming\assignment03\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Jared\Desktop\2016-2017 School Work\Game Programming\assignment03\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Jared\Desktop\2016-2017 School Work\Game Programming\assignment03\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Jared\Desktop\2016-2017 School Work\Game Programming\assignment03\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache

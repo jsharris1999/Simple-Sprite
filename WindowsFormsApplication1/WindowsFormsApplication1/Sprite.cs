@@ -19,7 +19,7 @@ namespace WindowsFormsApplication1
         //instance variable
         private float x = 0;
 
-        public float X
+        public float TargetX
         {
             get { return x; }
             set { x = value; }
@@ -27,7 +27,7 @@ namespace WindowsFormsApplication1
 
         private float y = 0;
 
-        public float Y
+        public float TargetY
         {
             get { return y; }
             set { y = value; }
@@ -103,9 +103,10 @@ namespace WindowsFormsApplication1
 
         public class Picture : Sprite
         {
-            Image hydralisk = Image.FromFile("hydralisk.png", true);
-            public int xc;
-            public int yc;
+            Image mutalisk = Image.FromFile("Mutalisk.png", true);
+            public int X = 0;
+            public int Y = 0;
+            public int velocity = 5;
             public int s = 0;
             public int width;
             public int height;
@@ -113,23 +114,24 @@ namespace WindowsFormsApplication1
             public Picture(int h, int w) : base()
             {
                 Random rand = new Random();
-                xc = rand.Next(h);
-                yc = rand.Next(h);
                 width = w;
                 height = h;
             }
 
             public override void act()
             {
-                xc = (int) (Math.Sin(s/4) * 400 + 200) % (width - 100);
-                yc = (int) (Math.Cos(s/4) * 400 + 200) % (height - 100);
-                s++;
+                if (X + velocity < TargetX) X += velocity;
+                else if (X - velocity > TargetX) X -= velocity;
+                else X = velocity;
+                if (Y + velocity < TargetX) Y += velocity;
+                else if (Y - velocity > TargetX) Y -= velocity;
+                else Y = velocity;
             }
 
             public override void paint(Graphics g)
             {
-                g.DrawString("Hey", new Font("Comic Sans MS", 10), Brushes.Crimson, xc, yc);
-                g.DrawImage(hydralisk, xc, yc);
+                g.DrawString("Hey", new Font("Comic Sans MS", 10), Brushes.Crimson, TargetX, TargetY);
+                g.DrawImage(mutalisk, X, Y);
                 
             }
 

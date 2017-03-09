@@ -72,6 +72,16 @@ namespace WindowsFormsApplication1
             }
         }
 
+        protected override void OnKeyDown(KeyEventArgs e)
+        {
+            //base.OnKeyDown(e);
+            //Console.WriteLine("asdffasdf");
+            if (e.KeyCode == Keys.Left) parent.TargetX -= 30;
+            if (e.KeyCode == Keys.Right) parent.TargetX += 30;
+            if (e.KeyCode == Keys.Up) parent.TargetY -= 30;
+            if (e.KeyCode == Keys.Down) parent.TargetY += 30;
+        }
+
         protected override void OnMouseMove(MouseEventArgs e)
         {
             //Refresh();
